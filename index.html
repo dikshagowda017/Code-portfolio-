@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://kit.fontawesome.com/b99b2a73f8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="C:\Users\Dell\OneDrive\Desktop\codes\PORTFOLIO\logo.png" class="logo">
+               <ul>
+  <li><a href="#header">Home</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#services">Services</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Diksha B R</span><br>From India.</h1>
+            </div>
+        </div>
+    </div>
+<div id="about" class="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="C:\Users\Dell\OneDrive\Desktop\codes\PORTFOLIO\myimage.jpg" alt="Diksha B R" class="about-img">
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>
+          An enthusiastic Engineering student with a strong interest in UI/UX design and web development. 
+          I enjoy creating visually appealing and user-friendly digital experiences that blend creativity with functionality. 
+          I’m passionate about learning new technologies, solving real-world problems through design, 
+          and continuously improving my technical and creative skills. 
+          My goal is to build a career where I can contribute to impactful projects while growing as a designer and developer.
+        </p>
+    <div class="tab-titles">
+  <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+  <p class="tab-links" onclick="opentab('experience')">Experience</p>
+  <p class="tab-links" onclick="opentab('education')">Education</p>
+</div>
+        <div class="tab-contents active-tab" id='skills'>
+          <ul>
+            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+            <li><span>Languages </span><br>C , Java , JavaScript , Python</li>
+            <li><span>Interfaces</span><br>HTML, CSS , React</li>
+            <li><span>Database</span><br>SQL, MySQL</li>
+            <li><span>Tools</span><br>Jupyter, Visual Studio Code, MySQL, Figma, Code Block, GitHub</li>
+            <li><span>Office suites</span><br>MS Excel, MS Power Point, MS Word.</li>
+          </ul>
+        </div>
+        <div class="tab-contents " id ='experience'>
+          <ul>
+            <li><span>Intership at InterPe</span><br>Python programming Intern<br>Built interactive Python applications such as a Digital Clock and a Tic Tac Toe game, applying core programming concepts like functions, loops, conditionals, and object-oriented principles. These projects strengthened my problem-solving skills and provided hands-on experience in debugging, code optimization, and project structuring</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>2025- Current</span><br>Bachelors of Engineering – Computer science (AIML) and Engineering<br>Mangalore Institute of Technology & Engineering. (Autonomous) <br>CGPA: 8.56 </li>
+            <li><span>2021-22</span><br>Senior Secondary(12th) in Kendriya Vidyalaya NAL Campus - 69%</li>
+            <li><span>2019-20</span><br>Secondary School(10th) in Kendriya Vidyalaya NAL Campus - 82%</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Problem Solving / Coding Practice</h2>
+                <p>Writing efficient and optimized code using structured logic and algorithms.</p>
+                <a href="#">Learn more</a>
+            </div>
+             <div>
+                <i class = "fas fa-crop-alt"></i>
+                <h2>Mini Projects & Application Development</h2>
+                <p>Designing and developing interactive projects like games, tools, and utilities for learning and practical use.</p>
+                <a href="#">Learn more</a>
+            </div>
+             <div>
+                <i class="fab fa-app-store"></i>
+                <h2>UI/UX Design</h2>
+                <p>Designing clean and modern user interfaces with a focus on user experience and visual appeal.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i> dikshagowda017@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> +91-9148964101</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/diksha-gowda-242881293/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.facebook.com/Diksha-Gowda/61580625901251/?mibextid=wwXIfr&rdid=xZJbO3B36zSBHEJ4&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1GixN5XSvG%2F%3Fmibextid%3DwwXIfr"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/_.diksha.gowda._/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <a href="C:\Users\Dell\OneDrive\Desktop\codes\PORTFOLIO\myCV.pdf.pdf" download class="btn btn2">Download CV</a>
+      </div>
+
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" rows="4" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName('tab-contents');
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+         for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+         }
+         event.currentTarget.classList.add("active-link");
+         document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwIuYBTBncMo1a2C2zJ5uJU7h7aQHqhlD-PPouCg37dg49hotB8-DdppjZBCZgP26l2/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
